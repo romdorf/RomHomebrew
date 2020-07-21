@@ -1,0 +1,165 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "RomsMonsters",
+				"abbreviation": "ROM",
+				"full": "Rom Homebrew",
+				"url": "",
+				"authors": [
+					"Rodrigo Mattos"
+				],
+				"convertedBy": [
+					"Rom"
+				]
+			}
+		],
+		"dateAdded": 1595302870,
+		"dateLastModified": 1595302870
+	},
+	"monster": [
+		{
+			"name": "Gnoll War Born (1)",
+			"source": "RomsMonsters",
+			"page": 163,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item metal armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 16,
+			"int": 8,
+			"wis": 11,
+			"cha": 9,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Gnoll"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Rampage",
+					"entries": [
+						"When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+					]
+				},
+				{
+					"name": "Death Before Dishonor",
+					"entries": [
+						"The body of a creature War Born creates a lethal poison that kills in 2 turns in case it is captured by enemies. Consider captured qhen it is under condition of {@condition paralyzed} or {@condition restrained} and there is no free allies nearby and the battle is over. The creation of the poison is an {@condition unconscious} response of War Born and cannot be avoided. The use of magic that removes the effect of the poison before the pass of 2 turns remove permanently this condition. However, the magic must be applied after the effect has begun."
+					]
+				},
+				{
+					"name": "Dedicated Loyalty",
+					"entries": [
+						"Creatures War Born have advantage on saving throws agains being {@condition charmed}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gnoll makes two attacks, one with its spear or Battleaxe and one bite attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/gnoll.mp3?v=1.108.0"
+			},
+			"traitTags": [
+				"Rampage"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"OTH"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"skill": {
+				"stealth": "+5",
+				"perception": "+2"
+			},
+			"resist": [
+				{
+					"resist": [
+						"piercing"
+					],
+					"note": "from non-magical weapons"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"Gnolls nascidos da guerra têm um aspecto maior do que outros gnolls, com olhos espelhados e sem pupilas. As cataratas que cobrem seus olhos são estriadas com veias vermelho-sangue, um sinal do batismo no Caldeirão de Mistura. Seus corpos são resistentes a dano, e pequenos ferimentos como os infligidos por armas perfurantes fecham rapidamente, diminuindo a perda de sangue. Gnolls nascidos da guerra levam consigo armas de boa qualidade e vestem armaduras ultrapassadas, mas em boas condições. Um teste de Inteligência CD 10 (Investigação) determina que suas armas e armaduras são de qualidade muito superior do que aquelas geralmente carregadas por gnolls comuns. Gnolls nascidos da guerra morrem caso capturados, fazendo com que interrogá-los se torne praticamente impossível."
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/qDsWuYc.png"
+		}
+	]
+}
