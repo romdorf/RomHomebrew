@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1595216063,
-		"dateLastModified": 1595216063
+		"dateAdded": 1595301411,
+		"dateLastModified": 1595301411
 	},
 	"monster": [
 		{
@@ -134,7 +134,7 @@
 					"Gnolls nascidos da guerra têm um aspecto maior do que outros gnolls, com olhos espelhados e sem pupilas. As cataratas que cobrem seus olhos são estriadas com veias vermelho-sangue, um sinal do batismo no Caldeirão de Mistura. Seus corpos são resistentes a dano, e pequenos ferimentos como os infligidos por armas perfurantes fecham rapidamente, diminuindo a perda de sangue. Gnolls nascidos da guerra levam consigo armas de boa qualidade e vestem armaduras ultrapassadas, mas em boas condições. Um teste de Inteligência CD 10 (Investigação) determina que suas armas e armaduras são de qualidade muito superior do que aquelas geralmente carregadas por gnolls comuns. Gnolls nascidos da guerra morrem caso capturados, fazendo com que interrogá-los se torne praticamente impossível."
 				]
 			},
-			"tokenUrl": "https://imgur.com/ndt0Z5a.jpg",
+			"tokenUrl": "https://imgur.com/xNtmgAX.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/gnoll.mp3?v=1.108.0"
@@ -163,7 +163,6 @@
 		},
 		{
 			"name": "Jaume Olhos-de-Falcão",
-			"isNpc": true,
 			"source": "RomsMonsters",
 			"page": 346,
 			"level": 10,
@@ -374,7 +373,7 @@
 					"tanto ama e protege. Caso o grupo encontre dificuldades extremas futuramente durante a aventura como, por exemplo, quase perecerem durante um ataque ao acampamento do Feiticeiro das Trevas, o Mestre pode usar Jaume para providenciar ajuda de outras formas que não em combate, como fornecer curas e conselhos, mas ele não ajudará o grupo diretamente contra o Feiticeiro das Trevas ou a Fortaleza da Espada."
 				]
 			},
-			"tokenUrl": "https://imgur.com/vRZShqI.jpg",
+			"tokenUrl": "https://imgur.com/HZE8Xg6.png",
 			"soundClip": {
 				"type": "external",
 				"url": "https://5e.tools/audio/bestiary/druid.mp3?v=1.108.0"
